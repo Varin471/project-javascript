@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&family=Chakra+Petch:wght@300&family=Itim&display=swap');
+
+/* set */
+* {
+    box-sizing: border-box;
+    color: #000;
+    font-family: 'Chakra Petch', sans-serif;
+    text-decoration: none;
+}
+
+*::selection {
+    color: rgb(229, 255, 0);
+    background-color: black;
+}
+
+/* navbar */
+nav img {
+    max-width: 55px;
+    max-height: 55px;
+    cursor: pointer;
+}
+
+h3.navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin: 5px auto 2px 0px;
+    cursor: pointer;
+}
+
+
+/* main */
+#image{
+    cursor: pointer;
+}
+
+.header {
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 16px auto 0px 0px;
+}
+
+.card {
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.distance {
+    display: grid;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+form {
+    margin: 60px 0px 0px 60px;
+}
+
+/* button */
+.btn-group-md {
+    padding: 1rem;
+    margin: 0 12px 0 12px;
+}
+
+.btn-group-md #succeed {
+    border: black solid 2.3px;
+    font-size: 0.98rem;
+    font-weight: bold;
+    width: 73px;
+    height: 40px;
+    background-color: rgb(74, 240, 59);
+    color: black;
+    border-radius: 17px;
+}
+
+.btn-group-md #switch {
+    border: black solid 2.3px;
+    font-size: 0.98rem;
+    font-weight: bold;
+    width: 73px;
+    height: 40px;
+    background-color: rgb(51, 51, 253);
+    color: black;
+    border-radius: 17px;
+}
+
+.btn-group-md #cancel {
+    border: black solid 2.3px;
+    font-size: 0.98rem;
+    font-weight: bold;
+    width: 73px;
+    height: 40px;
+    background-color: rgb(252, 71, 39);
+    color: black;
+    border-radius: 17px;
+}
+
+/* footer */
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100vw;
+    height: 90px;
+    padding-top: 40px;
+}
+
