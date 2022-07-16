@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&display=swap');
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    background: rgb(255, 255, 255)
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.btn {
+    box-shadow: rgb(67, 68, 68) 4px 4px 0;
+    transform: 200ms;
+    box-shadow: 200ms;
+    cursor: pointer;
+    border: 1.5px solid snow;
+    margin: 18px 3px 0 0;
+    padding: auto;
+    background-color: black;
+    width: 100px;
+    height: 43px;
+    color: rgb(91, 129, 235);
+    font-size: 16px;
+}
+
+.btn:active {
+    transform: translateX(4px) translateY(4px);
+}
+
+.btn:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(70, 97, 255);
+    border: 0.3px solid black;
+}
